@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="Age Calculator.css">
+    <script src="AgeCaluclator.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Heading  -->
+    <h1 class="Heading">Age Calculator</h1>
+    <hr>
+    <div class="container">
+
+        <!-- Inputs -->
+
+    <form action="#">
+        <label for="Name">Your Name :</label>
+        <input type="text" id="Name" name="Name" placeholder="Vipin Kumar">
+    </form>
+  
+
+        <form action="#" class="form">
+            <div >
+
+            <label for="date">Date</label>
+            <input type="text" id="date" placeholder="Date" name="Date" min="1" max="31" required />
+
+            </div>
+            
+            <div>
+
+                <label for="month">Month</label>
+                <input type="text" name="month" id="month"  placeholder="Month" min="1" max="12" required />
+
+            </div>
+
+            <div>
+
+                <label for="Year">Year</label>
+                
+                <input type="text" id="year"  placeholder="Year" name="Year" min="1" required />
+            </div>
+              </form>
+              
+          
+          <!-- Submit -->
+            <button id="btn" onclick="age()">Submit</button>
+     
+               
+      <!-- Output div -->
+        <div id="name"></div>
+        <div id="age"></div>
+        
+
+
+
+</body>
+</html>

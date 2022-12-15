@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: linear-gradient(skyblue,yellow);
+
+}  
+
+/* heading starts here  */
+
+.Heading{
+    text-align: center;
+    margin: 3rem;
+    color: rgb(22, 126, 155);
+    font-size: 3rem;
+}
+hr{
+    border:2px solid rgb(25, 78, 118);
+    margin-bottom: 3rem;
+    }
+
+    /* input container  */
+    
+.container{
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+    }
+      
+
+    /* input form starts here  */
+
+form{
+    display: flex;
+   }
+
+div{
+    display: flex;
+    flex-direction:column;
+    margin: 1.5rem;
+}
+
+label{
+    color: #1073d0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: .4rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+input{
+    border-color: #1073d0;
+    padding: .3rem .5rem;
+    color: rgb(34, 70, 89);
+    font-weight: 600;
+}
+
+input[type=text] {
+        outline: none;
+        border: 1px solid rgb(43, 156, 242);
+    }
+
+input[type=text]:focus{
+        background-color: #ffffff;
+        border: 2px solid orange;
+        outline: none;
+    }
+
+  ::placeholder{
+        color: rgb(151, 29, 29);
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Playfair Display', serif;
+    }
+
+      /* submit button starts here  */
+
+#submit{
+    background-color:#0761b6;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem;
+  
+}
+
+
+#btn{
+    width: 8rem;
+    padding: .6rem 1rem;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+#btn:hover{
+    width: 8rem;
+    padding: .6rem 1rem;
+    background-color: pink;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+}
+      
+    /* Output div starts here                                                                                                                       */
+
+ #name{
+     color: rgb(10 147 118);
+     margin: 1rem;
+     font-size: 1.5rem;
+     font-family: 'Abril Fatface', cursive;
+     font-family: 'Playfair Display', serif;
+    }
+    #age{
+     color: rgb(237, 59, 10);
+     margin: 0rem;
+     font-size: 1.5rem;
+     font-family: 'Abril Fatface', cursive;
+     font-family: 'Lora', serif;
+     text-align: center;
+    }
+    
+    /* Media Query starts here */
+
+    @media screen and (max-width: 700px)  {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    }
